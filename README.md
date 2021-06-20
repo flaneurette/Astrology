@@ -8,29 +8,29 @@ This Astrology project uses pre-calculated positions of planetrary bodies. In th
 
 # Structure
 
-CREATE TABLE `astrology_years` (
-  `id` int(11) NOT NULL,
-  `planet` varchar(255) NOT NULL,
-  `sign` varchar(255) NOT NULL,
-  `deg` varchar(255) NOT NULL,
-  `min` varchar(255) NOT NULL,
-  `sec` varchar(255) NOT NULL,
-  `year` int(11) NOT NULL,
-  `retrograde` int(2) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+	CREATE TABLE `astrology_years` (
+	  `id` int(11) NOT NULL,
+	  `planet` varchar(255) NOT NULL,
+	  `sign` varchar(255) NOT NULL,
+	  `deg` varchar(255) NOT NULL,
+	  `min` varchar(255) NOT NULL,
+	  `sec` varchar(255) NOT NULL,
+	  `year` int(11) NOT NULL,
+	  `retrograde` int(2) NOT NULL
+	) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-CREATE TABLE `astrology_months` (
-  `id` int(11) NOT NULL,
-  `planet` varchar(4) NOT NULL,
-  `sign` varchar(4) NOT NULL,
-  `deg` varchar(4) NOT NULL,
-  `min` varchar(4) NOT NULL,
-  `sec` varchar(4) NOT NULL,
-  `year` int(6) NOT NULL,
-  `month` int(2) NOT NULL,
-  `day` int(2) NOT NULL,
-  `retrograde` int(2) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+	CREATE TABLE `astrology_months` (
+	  `id` int(11) NOT NULL,
+	  `planet` varchar(4) NOT NULL,
+	  `sign` varchar(4) NOT NULL,
+	  `deg` varchar(4) NOT NULL,
+	  `min` varchar(4) NOT NULL,
+	  `sec` varchar(4) NOT NULL,
+	  `year` int(6) NOT NULL,
+	  `month` int(2) NOT NULL,
+	  `day` int(2) NOT NULL,
+	  `retrograde` int(2) NOT NULL
+	) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 # Planetary objects
 
