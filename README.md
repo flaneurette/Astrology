@@ -4,9 +4,9 @@ An astrology project based upon sweph.
 This astrology software displays planetary bodies on a horizontal graph. It is possible to choose a planetary body, and display it on a certain selected timeline, ranging from 2000 BC to 2100 AD. This gives a clear calculation to see when a planet was in a certain sign.
 
 # Databases
-This Astrology project uses pre-calculated positions of planetrary bodies. In this way, we can use simple SQL queries to retrieve certain data. We used the Astro.com Sweph output, to calculate the bodies based upon Month, Years and the Houses. There are 3 zip files containing the databases with the calculated planetary bodies. These need to be extracted, and added into a database in order to query them through the PHP files. The database requires at least 40MB, the SQL tables are zipped for Github, because of the size of the computations.
+This Astrology project uses pre-calculated positions of planetrary bodies. In this way, we can use simple SQL queries to retrieve certain data. We used the Astro.com Sweph output, to calculate the bodies based upon Months and Years. There are 3 zip files containing the databases with the calculated planetary bodies. These need to be extracted, and added into a database in order to query them through the PHP files. The database requires at least 40MB, the SQL tables are zipped for Github, because of the size of the computations.
 
-# Structure
+# Database Structure
 
 	CREATE TABLE `astrology_years` (
 	  `id` int(11) NOT NULL,
