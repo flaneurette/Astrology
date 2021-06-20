@@ -4,11 +4,11 @@ An astrology project based upon sweph.
 This astrology software displays planetary bodies on a horizontal graph. It is possible to choose a planetary body, and display it on a certain selected timeline, ranging from 2000 BC to 2100 AD. This gives a clear calculation to see when a planet was in a certain sign.
 
 # Databases
-There are 3 zip files containing the databases with the calculated planetary bodies. These need to be extracted, and added into a database in order to query them through the PHP files.
+There are 3 zip files containing the databases with the calculated planetary bodies. These need to be extracted, and added into a database in order to query them through the PHP files. The database requires at least 40Mb.
 
 # Planetary objects
 
-There is a limited availablity of calculated planetary objects, the astrology project currently only supports the following objects: 
+In order to keep the size of the database reasonably limited, there is a limited availablity of calculated planetary objects, the astrology project currently only supports the following objects: 
 
 	- Sun
 	- Moon
