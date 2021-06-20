@@ -12,8 +12,9 @@ The class is free for use under the GNU v 2.0 license.
 # 3rd party license
 This class uses 3rd party software: 
 
-VIS.js for graphics. See license for use.
-The database was calculated and populated with astro.com sweph
+- VIS.js for graphics. See VIS license for use, no warranty given.
+- noUiSlider. See noUiSlider license for use, no warranty given.
+- Database was calculated and populated with astro.com PHP sweph, no warranty given.
 
 # Security
 For now, it is not advised to run this software on a live server. Instead, it would be better to run it locally.
