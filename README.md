@@ -1,4 +1,4 @@
-# Astro 
+# Astrology Project
 An astrology project based upon sweph.
 
 This astrology software displays planetary bodies on a horizontal graph. It is possible to choose a planetary body, and display it on a certain selected timeline.
