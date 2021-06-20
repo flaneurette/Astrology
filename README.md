@@ -6,6 +6,23 @@ This astrology software displays planetary bodies on a horizontal graph. It is p
 # Databases
 There are 3 zip files containing the databases with the calculated planetary bodies. These need to be extracted, and added into a database in order to query them through the PHP files.
 
+# Planetary objects
+
+There is a limited availablity of calculated planetary objects, the astrology project currently only supports: 
+
+	- Sun
+	- Moon
+	- Mercury
+	- Venus
+	- Mars
+	- Jupiter
+	- Saturn
+	- Uranus
+	- Neptune
+	- Pluto
+	- Chiron
+	- Lilith
+
 # Credits
 The class is free for use under the GNU v 2.0 license.
 
