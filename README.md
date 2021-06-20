@@ -8,7 +8,7 @@ There are 3 zip files containing the databases with the calculated planetary bod
 
 # Planetary objects
 
-There is a limited availablity of calculated planetary objects, the astrology project currently only supports: 
+There is a limited availablity of calculated planetary objects, the astrology project currently only supports the following objects: 
 
 	- Sun
 	- Moon
